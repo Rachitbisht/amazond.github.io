@@ -31,10 +31,10 @@ function App() {
   // }, []);
   return (
     <div className="App">
-     <Router basename="/amazond.github.io">
-     <Link to="/amazond.github.io"></Link>
+     <Router basename="/">
+     <Link to="/"></Link>
      <Routes>
-     <Route exact path='/amazond.github.io' element={<><Header /><Home /></>}></Route>
+     <Route exact path='/' element={<><Header /><Home /></>}></Route>
      <Route exact path='/login' element={<Login/>}></Route>
      <Route exact path='/checkout' element={<Checkout/>}></Route>
      <Route exact path='/checkout' element={<Checkout/>}></Route>
